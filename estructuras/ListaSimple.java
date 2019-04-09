@@ -17,7 +17,7 @@ public class ListaSimple
 	}
 	
 	public ListaSimple next() {
-		return this.next!=null ? this.next : null;
+		return this.next;
 	}
 	
 	public String getContent()
@@ -42,5 +42,17 @@ public class ListaSimple
 			System.out.println(aux.content);
 			aux = aux.next;
 		}
+	}
+	
+	public boolean exist(String content)
+	{
+		ListaSimple aux = this;
+		while (aux != null) {
+			if (aux.content == content) {
+				return true;
+			}
+			aux = aux.next;
+		}
+		return false;
 	}
 }
