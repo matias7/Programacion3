@@ -12,6 +12,7 @@ Métodos:
 boolean delete(Object), int getHeight(), void printPosOrder(), void printPreOrder(),
 void printInOrder(), List getLongestBranch(), List getFrontera(), Object getMaxElem(),
 List getElemAtLevel(i)
-1. ¿Cuál es la complejidad de cada uno de estos métodos?
+
+### Aclaración: El ejercicio tiene implementados los métodos solicitados y comentados los no solicitados
 
 ### Estado: Terminado.
